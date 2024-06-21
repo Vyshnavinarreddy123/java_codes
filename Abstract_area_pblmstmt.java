@@ -1,3 +1,13 @@
+/*Create an abstract class called Shape2d that has two data
+members of type double and two abstract methods area()
+and display(). Create two derived classes Rectangle and
+Triangle. In both classes define the method area() to
+compute the area of that shape and return it as a double
+value and define the method display() to display the value
+of the data members with appropriate caption and the
+calculated area. Create a class called Shape2dDemo and
+provide main method to instantiate the objects of Rectangle
+and Triangle for demonstration of the above classes.*/
 //abstract example
 abstract class area
 {
