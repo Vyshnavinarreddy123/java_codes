@@ -1,0 +1,25 @@
+//final keyword parameter
+class simple
+{
+    int a,b;
+    final int c;
+    void input(int a,int b,int c) /*cannot assign some value to final variable c*/
+    {
+        this.a=a;
+        this.b=b;
+        this.c=c;
+    }
+    void display()
+    {
+        System.out.println("a="+a+"\t b="+b+"\t c:"+c);
+    }
+}
+class final_method_example
+{
+    public static void main(String args[])
+    {
+        simple s=new simple();
+        s.input(3,4,5);
+        s.display();
+    }
+}
